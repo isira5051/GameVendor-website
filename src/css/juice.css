@@ -1,0 +1,151 @@
+
+body{
+  
+  background: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=1800&t=st=1696151310~exp=1696151910~hmac=d471a17054636f4489df2eef28c23938db8a0c0aae9d6d8e0782236259e93efa");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-button-class {
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #78c9e9;
+    border: 2px solid;
+    box-shadow:#615e5e ;
+    border-radius: 2px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+
+  .custom-button-class-signUp {
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-color: #78c9e9;
+    box-shadow:#615e5e ;
+    border-radius: 2px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+
+  .custom-button-class:hover {
+    background-color: #2d98a0; 
+  }
+  .custom-button-class-signUp:hover {
+    
+    background-color: #78c9e9;
+  }
+  .custom-button-class:focus, .custom-button:active {
+    outline: none;
+    background-color: #2072a0; 
+  }
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    padding: -2px;
+  }
+  
+  .image-description {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 2px;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+    border: 3px solid;
+    border-color: gray;
+  }
+  
+  .image-container:hover .image-description {
+    scale: (2.2,2.5);
+    transform: translateY(0);
+  }
+  
+  .image-container:hover {
+      transform:scale(1.1,1.3)
+  }
+
+  .custom-button-class-search
+  {
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-color: #b9c1c4;
+    box-shadow:#d1cccc ;
+    border-radius: 2px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+  }
+  .custom-button-class-search:hover {
+
+    background-color: #464343;
+  }
+
+  .custom-button-class-checkout
+  {
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #78c9e9;
+    border: 2px solid;
+    box-shadow:#615e5e ;
+    border-radius: 2px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+
+  }
+  
+
+  .cart-description {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 1000px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 2px;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+    border: 3px solid;
+    border-color: gray;
+  }
+
+  .custom-button-class-checkout:hover  {
+
+    background-color: #fff;
+    scale: (2.2,2.5);
+    transform: translateY(0);
+
+  }
+  .card-container-temp
+  {
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s
+  }
+  .card-container-temp:hover .cart-description {
+    transform: scale(1.5);
+    transform: translateY(0);
+  }
+
+  .user-data-table
+  {
+    
+      border-collapse: separate;
+      border-spacing: 20px;
+      
+    
+  }
